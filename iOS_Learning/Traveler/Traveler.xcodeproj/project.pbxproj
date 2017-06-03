@@ -703,6 +703,7 @@
 				1694631D1EE2B73700A167CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1694631E1EE2B73700A167CF /* Build configuration list for PBXNativeTarget "TravelerTests" */ = {
 			isa = XCConfigurationList;
@@ -711,6 +712,7 @@
 				169463201EE2B73700A167CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		169463211EE2B73700A167CF /* Build configuration list for PBXNativeTarget "TravelerUITests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +721,7 @@
 				169463231EE2B73700A167CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
