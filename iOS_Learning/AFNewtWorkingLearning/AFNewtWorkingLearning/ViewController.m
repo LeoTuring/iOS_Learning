@@ -38,13 +38,7 @@
   NSData *data = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
   
   */
-  
-  
-  
-  
-  
-  
-  
+
 }
 
 
