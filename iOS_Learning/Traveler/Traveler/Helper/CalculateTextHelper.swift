@@ -1,0 +1,13 @@
+//
+//  CalculateTextHelper.swift
+//  Traveler
+//
+//  Created by 李冬阳 on 2017/6/3.
+//  Copyright © 2017年 lidongyang. All rights reserved.
+//
+
+import UIKit
+
+class CalculateTextHelper: NSObject {
+
+}

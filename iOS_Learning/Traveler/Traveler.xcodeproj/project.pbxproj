@@ -32,6 +32,8 @@
 		16F4FA941EE2F28A00E2603F /* LocalizableStrings-en.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA931EE2F28A00E2603F /* LocalizableStrings-en.plist */; };
 		16F4FA961EE2F29900E2603F /* LocalizableStrings-zh.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */; };
 		16F4FA9A1EE2F37600E2603F /* LocalizedRemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */; };
+		16F4FA9D1EE30BBD00E2603F /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA9C1EE30BBD00E2603F /* ColorManager.swift */; };
+		16F4FAA01EE30FFE00E2603F /* CalculateTextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA9F1EE30FFE00E2603F /* CalculateTextHelper.swift */; };
 		9AAFBE7961907FE3E91BFEDE /* Pods_Traveler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C07A5ABE0E25AF55C42901 /* Pods_Traveler.framework */; };
 		BFC3934445BA069BA84047E9 /* Pods_TravelerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BBD60D8C1DCC94E67E5207 /* Pods_TravelerUITests.framework */; };
 		D0DE6074BC397EFB1B230C1B /* Pods_TravelerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B0556B16651D3A22568332 /* Pods_TravelerTests.framework */; };
@@ -86,6 +88,8 @@
 		16F4FA931EE2F28A00E2603F /* LocalizableStrings-en.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-en.plist"; sourceTree = "<group>"; };
 		16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-zh.plist"; sourceTree = "<group>"; };
 		16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedRemoteConfig.swift; sourceTree = "<group>"; };
+		16F4FA9C1EE30BBD00E2603F /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		16F4FA9F1EE30FFE00E2603F /* CalculateTextHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateTextHelper.swift; sourceTree = "<group>"; };
 		23C07A5ABE0E25AF55C42901 /* Pods_Traveler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traveler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E1D1B4963CAA92C899762C /* Pods-TravelerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelerTests/Pods-TravelerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A2D7A695EF241A5D2325E73 /* Pods-TravelerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelerUITests/Pods-TravelerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -240,7 +244,9 @@
 			isa = PBXGroup;
 			children = (
 				16F4FA781EE2DB8600E2603F /* readMe.md */,
-				16F4FA901EE2EFDE00E2603F /* International */,
+				16F4FA9E1EE30F8F00E2603F /* CalculateTextHelper */,
+				16F4FA9B1EE30B8300E2603F /* ColorHelper */,
+				16F4FA901EE2EFDE00E2603F /* InternationalHelper */,
 				16F4FA8D1EE2E9B400E2603F /* NetworkHelper */,
 			);
 			path = Helper;
@@ -281,7 +287,7 @@
 			name = NetworkHelper;
 			sourceTree = "<group>";
 		};
-		16F4FA901EE2EFDE00E2603F /* International */ = {
+		16F4FA901EE2EFDE00E2603F /* InternationalHelper */ = {
 			isa = PBXGroup;
 			children = (
 				16F4FA911EE2F27400E2603F /* LocalizableStrings-ja.plist */,
@@ -289,7 +295,23 @@
 				16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */,
 				16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */,
 			);
-			name = International;
+			name = InternationalHelper;
+			sourceTree = "<group>";
+		};
+		16F4FA9B1EE30B8300E2603F /* ColorHelper */ = {
+			isa = PBXGroup;
+			children = (
+				16F4FA9C1EE30BBD00E2603F /* ColorManager.swift */,
+			);
+			name = ColorHelper;
+			sourceTree = "<group>";
+		};
+		16F4FA9E1EE30F8F00E2603F /* CalculateTextHelper */ = {
+			isa = PBXGroup;
+			children = (
+				16F4FA9F1EE30FFE00E2603F /* CalculateTextHelper.swift */,
+			);
+			name = CalculateTextHelper;
 			sourceTree = "<group>";
 		};
 		1B7F84DAC8A54284E9B942FF /* Frameworks */ = {
@@ -609,6 +631,8 @@
 				16F4FA6D1EE2DAFB00E2603F /* readMe.md in Sources */,
 				16F4FA821EE2DFC700E2603F /* DestinationViewController.swift in Sources */,
 				16F4FA751EE2DB6200E2603F /* readMe.md in Sources */,
+				16F4FA9D1EE30BBD00E2603F /* ColorManager.swift in Sources */,
+				16F4FAA01EE30FFE00E2603F /* CalculateTextHelper.swift in Sources */,
 				16F4FA8F1EE2EA0F00E2603F /* NetWorkManager.swift in Sources */,
 				16F4FA711EE2DB3B00E2603F /* readMe.md in Sources */,
 				16F4FA6F1EE2DB2600E2603F /* readMe.md in Sources */,

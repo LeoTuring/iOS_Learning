@@ -52,6 +52,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     userInfoNav.tabBarItem.setTitleTextAttributes(textAttributes, for: .normal)
     userInfoNav.tabBarItem.setTitleTextAttributes(selectedAttributes, for: .selected)
     
+    // Todo: 
+    
     /** TabBarController */
     let tabBarController = UITabBarController()
     tabBarController.viewControllers = [recommendNav, destinationNav, userInfoNav]

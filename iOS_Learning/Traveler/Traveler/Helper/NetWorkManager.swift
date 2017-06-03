@@ -23,9 +23,7 @@ class NetWorkManager: NSObject {
                success: @escaping NetWorkSuccess,
                failure: @escaping NetWorkFailure)
   {
-    
     Alamofire.request(url,method: method, parameters: parameters, encoding: encoding,headers: headers).responseJSON { (responseData) in
-                        
         switch responseData.result {
         case .success(let value):
           success(JSON(value))
