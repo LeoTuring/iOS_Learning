@@ -16,7 +16,49 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     // Override point for customization after application launch.
+    // 国际化配置
+    LocalizedRemoteConfig.shareInstance.setUp()
+    self.window = UIWindow.init(frame: UIScreen.main.bounds)
+    self.window?.backgroundColor = UIColor.white
+    self.window?.rootViewController = self.setUp()
+    self.window?.makeKeyAndVisible()
     return true
+  }
+  
+  func setUp() -> UITabBarController {
+    /** 设置字体颜色*/
+    var textAttributes: [String : Any] = [:]
+    textAttributes[NSForegroundColorAttributeName] = UIColor.gray
+    var selectedAttributes: [String : Any] = [:]
+    selectedAttributes[NSForegroundColorAttributeName] = UIColor.init(colorLiteralRed: 0.29, green: 0.74, blue: 0.79, alpha: 1)
+    /** 推荐*/
+    let recommend = RecommendViewController()
+    let recommendNav = UINavigationController.init(rootViewController: recommend)
+    recommendNav.tabBarItem = UITabBarItem.init(title: LocalizedRemoteConfig.localize(forkey: "Lable_recommend"), image: UIImage.init(named: "icon1")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage.init(named: "icon11")?.withRenderingMode(.alwaysOriginal))
+    recommendNav.tabBarItem.setTitleTextAttributes(textAttributes, for: .normal)
+    recommendNav.tabBarItem.setTitleTextAttributes(selectedAttributes, for: .selected)
+
+    /** 目的地*/
+    let destination = DestinationViewController()
+    let destinationNav = UINavigationController.init(rootViewController: destination)
+    destinationNav.tabBarItem = UITabBarItem.init(title: LocalizedRemoteConfig.localize(forkey: "Lable_destination"), image: UIImage.init(named: "icon2")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage.init(named: "icon22")?.withRenderingMode(.alwaysOriginal))
+    destinationNav.tabBarItem.setTitleTextAttributes(textAttributes, for: .normal)
+    destinationNav.tabBarItem.setTitleTextAttributes(selectedAttributes, for: .selected)
+    
+    /** 个人信息*/
+    let userInfo = UserInfoViewController()
+    let userInfoNav = UINavigationController.init(rootViewController: userInfo)
+    userInfoNav.tabBarItem = UITabBarItem.init(title: LocalizedRemoteConfig.localize(forkey: "Lable_userInfo"), image: UIImage.init(named: "icon4")?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage.init(named: "icon44")?.withRenderingMode(.alwaysOriginal))
+    userInfoNav.tabBarItem.setTitleTextAttributes(textAttributes, for: .normal)
+    userInfoNav.tabBarItem.setTitleTextAttributes(selectedAttributes, for: .selected)
+    
+    /** TabBarController */
+    let tabBarController = UITabBarController()
+    tabBarController.viewControllers = [recommendNav, destinationNav, userInfoNav]
+    tabBarController.tabBar.barTintColor = UIColor.init(colorLiteralRed: 0.85, green: 0.84, blue: 0.76, alpha: 1)
+    tabBarController.tabBar.tintColor = UIColor.white
+    
+    return tabBarController
   }
 
   func applicationWillResignActive(_ application: UIApplication) {

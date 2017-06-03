@@ -21,6 +21,17 @@
 		16F4FA751EE2DB6200E2603F /* readMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA741EE2DB6200E2603F /* readMe.md */; };
 		16F4FA771EE2DB7200E2603F /* readMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA761EE2DB7200E2603F /* readMe.md */; };
 		16F4FA791EE2DB8600E2603F /* readMe.md in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA781EE2DB8600E2603F /* readMe.md */; };
+		16F4FA7C1EE2DEBD00E2603F /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA7A1EE2DEBD00E2603F /* RecommendViewController.swift */; };
+		16F4FA7D1EE2DEBD00E2603F /* RecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA7B1EE2DEBD00E2603F /* RecommendViewController.xib */; };
+		16F4FA821EE2DFC700E2603F /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA801EE2DFC700E2603F /* DestinationViewController.swift */; };
+		16F4FA831EE2DFC700E2603F /* DestinationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA811EE2DFC700E2603F /* DestinationViewController.xib */; };
+		16F4FA8A1EE2E19600E2603F /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA881EE2E19600E2603F /* UserInfoViewController.swift */; };
+		16F4FA8B1EE2E19600E2603F /* UserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA891EE2E19600E2603F /* UserInfoViewController.xib */; };
+		16F4FA8F1EE2EA0F00E2603F /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA8E1EE2EA0F00E2603F /* NetWorkManager.swift */; };
+		16F4FA921EE2F27400E2603F /* LocalizableStrings-ja.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA911EE2F27400E2603F /* LocalizableStrings-ja.plist */; };
+		16F4FA941EE2F28A00E2603F /* LocalizableStrings-en.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA931EE2F28A00E2603F /* LocalizableStrings-en.plist */; };
+		16F4FA961EE2F29900E2603F /* LocalizableStrings-zh.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */; };
+		16F4FA9A1EE2F37600E2603F /* LocalizedRemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */; };
 		9AAFBE7961907FE3E91BFEDE /* Pods_Traveler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C07A5ABE0E25AF55C42901 /* Pods_Traveler.framework */; };
 		BFC3934445BA069BA84047E9 /* Pods_TravelerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BBD60D8C1DCC94E67E5207 /* Pods_TravelerUITests.framework */; };
 		D0DE6074BC397EFB1B230C1B /* Pods_TravelerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1B0556B16651D3A22568332 /* Pods_TravelerTests.framework */; };
@@ -64,6 +75,17 @@
 		16F4FA741EE2DB6200E2603F /* readMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readMe.md; sourceTree = "<group>"; };
 		16F4FA761EE2DB7200E2603F /* readMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readMe.md; sourceTree = "<group>"; };
 		16F4FA781EE2DB8600E2603F /* readMe.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readMe.md; sourceTree = "<group>"; };
+		16F4FA7A1EE2DEBD00E2603F /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
+		16F4FA7B1EE2DEBD00E2603F /* RecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendViewController.xib; sourceTree = "<group>"; };
+		16F4FA801EE2DFC700E2603F /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		16F4FA811EE2DFC700E2603F /* DestinationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DestinationViewController.xib; sourceTree = "<group>"; };
+		16F4FA881EE2E19600E2603F /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		16F4FA891EE2E19600E2603F /* UserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInfoViewController.xib; sourceTree = "<group>"; };
+		16F4FA8E1EE2EA0F00E2603F /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		16F4FA911EE2F27400E2603F /* LocalizableStrings-ja.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-ja.plist"; sourceTree = "<group>"; };
+		16F4FA931EE2F28A00E2603F /* LocalizableStrings-en.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-en.plist"; sourceTree = "<group>"; };
+		16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-zh.plist"; sourceTree = "<group>"; };
+		16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedRemoteConfig.swift; sourceTree = "<group>"; };
 		23C07A5ABE0E25AF55C42901 /* Pods_Traveler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Traveler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29E1D1B4963CAA92C899762C /* Pods-TravelerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TravelerTests/Pods-TravelerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A2D7A695EF241A5D2325E73 /* Pods-TravelerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TravelerUITests/Pods-TravelerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +204,9 @@
 			isa = PBXGroup;
 			children = (
 				16F4FA701EE2DB3B00E2603F /* readMe.md */,
+				16F4FA7E1EE2DEF500E2603F /* Recommend */,
+				16F4FA8C1EE2E19F00E2603F /* UserInfo */,
+				16F4FA7F1EE2DFA100E2603F /* Destination */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -215,8 +240,56 @@
 			isa = PBXGroup;
 			children = (
 				16F4FA781EE2DB8600E2603F /* readMe.md */,
+				16F4FA901EE2EFDE00E2603F /* International */,
+				16F4FA8D1EE2E9B400E2603F /* NetworkHelper */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		16F4FA7E1EE2DEF500E2603F /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+				16F4FA7A1EE2DEBD00E2603F /* RecommendViewController.swift */,
+				16F4FA7B1EE2DEBD00E2603F /* RecommendViewController.xib */,
+			);
+			name = Recommend;
+			sourceTree = "<group>";
+		};
+		16F4FA7F1EE2DFA100E2603F /* Destination */ = {
+			isa = PBXGroup;
+			children = (
+				16F4FA801EE2DFC700E2603F /* DestinationViewController.swift */,
+				16F4FA811EE2DFC700E2603F /* DestinationViewController.xib */,
+			);
+			name = Destination;
+			sourceTree = "<group>";
+		};
+		16F4FA8C1EE2E19F00E2603F /* UserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				16F4FA881EE2E19600E2603F /* UserInfoViewController.swift */,
+				16F4FA891EE2E19600E2603F /* UserInfoViewController.xib */,
+			);
+			name = UserInfo;
+			sourceTree = "<group>";
+		};
+		16F4FA8D1EE2E9B400E2603F /* NetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				16F4FA8E1EE2EA0F00E2603F /* NetWorkManager.swift */,
+			);
+			name = NetworkHelper;
+			sourceTree = "<group>";
+		};
+		16F4FA901EE2EFDE00E2603F /* International */ = {
+			isa = PBXGroup;
+			children = (
+				16F4FA911EE2F27400E2603F /* LocalizableStrings-ja.plist */,
+				16F4FA931EE2F28A00E2603F /* LocalizableStrings-en.plist */,
+				16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */,
+				16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */,
+			);
+			name = International;
 			sourceTree = "<group>";
 		};
 		1B7F84DAC8A54284E9B942FF /* Frameworks */ = {
@@ -360,8 +433,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				169463011EE2B73700A167CF /* LaunchScreen.storyboard in Resources */,
+				16F4FA941EE2F28A00E2603F /* LocalizableStrings-en.plist in Resources */,
+				16F4FA7D1EE2DEBD00E2603F /* RecommendViewController.xib in Resources */,
+				16F4FA831EE2DFC700E2603F /* DestinationViewController.xib in Resources */,
+				16F4FA8B1EE2E19600E2603F /* UserInfoViewController.xib in Resources */,
 				169462FE1EE2B73700A167CF /* Assets.xcassets in Resources */,
+				16F4FA961EE2F29900E2603F /* LocalizableStrings-zh.plist in Resources */,
 				169462FC1EE2B73700A167CF /* Main.storyboard in Resources */,
+				16F4FA921EE2F27400E2603F /* LocalizableStrings-ja.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,14 +604,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				169462F91EE2B73700A167CF /* ViewController.swift in Sources */,
+				16F4FA8A1EE2E19600E2603F /* UserInfoViewController.swift in Sources */,
 				16F4FA791EE2DB8600E2603F /* readMe.md in Sources */,
 				16F4FA6D1EE2DAFB00E2603F /* readMe.md in Sources */,
+				16F4FA821EE2DFC700E2603F /* DestinationViewController.swift in Sources */,
 				16F4FA751EE2DB6200E2603F /* readMe.md in Sources */,
+				16F4FA8F1EE2EA0F00E2603F /* NetWorkManager.swift in Sources */,
 				16F4FA711EE2DB3B00E2603F /* readMe.md in Sources */,
 				16F4FA6F1EE2DB2600E2603F /* readMe.md in Sources */,
 				16F4FA731EE2DB5100E2603F /* readMe.md in Sources */,
 				16F4FA771EE2DB7200E2603F /* readMe.md in Sources */,
 				169462F71EE2B73700A167CF /* AppDelegate.swift in Sources */,
+				16F4FA7C1EE2DEBD00E2603F /* RecommendViewController.swift in Sources */,
+				16F4FA9A1EE2F37600E2603F /* LocalizedRemoteConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

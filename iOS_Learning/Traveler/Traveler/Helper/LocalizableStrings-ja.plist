@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Lable_recommend</key>
+	<string>おすすめ</string>
+	<key>Lable_destination</key>
+	<string>目的地</string>
+	<key>Lable_userInfo</key>
+	<string>私</string>
+</dict>
+</plist>
