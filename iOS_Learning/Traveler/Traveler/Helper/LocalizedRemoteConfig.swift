@@ -10,7 +10,6 @@ import UIKit
 
 class LocalizedRemoteConfig: NSObject {
   
-  
   static let  shareInstance = LocalizedRemoteConfig()
   private var languageDictionary: NSMutableDictionary = NSMutableDictionary()
   override init() {
@@ -26,11 +25,7 @@ class LocalizedRemoteConfig: NSObject {
     if let languageID = Locale.preferredLanguages.first {
       if #available(iOS 9.0, *) {
         if let region = languageID.components(separatedBy: "-").last {
-          if languageID == "zh-Hans-US" {
-            languageCode = "zh"
-          }else {
             languageCode = languageID.replacingOccurrences(of: "-\(region)", with: "")
-          }
         }else {
           languageCode = languageID
         }
@@ -39,7 +34,6 @@ class LocalizedRemoteConfig: NSObject {
       }
     }
     return languageCode
-    
   }
   
   

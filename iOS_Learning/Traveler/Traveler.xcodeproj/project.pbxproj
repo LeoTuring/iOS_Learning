@@ -30,7 +30,7 @@
 		16F4FA8F1EE2EA0F00E2603F /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA8E1EE2EA0F00E2603F /* NetWorkManager.swift */; };
 		16F4FA921EE2F27400E2603F /* LocalizableStrings-ja.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA911EE2F27400E2603F /* LocalizableStrings-ja.plist */; };
 		16F4FA941EE2F28A00E2603F /* LocalizableStrings-en.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA931EE2F28A00E2603F /* LocalizableStrings-en.plist */; };
-		16F4FA961EE2F29900E2603F /* LocalizableStrings-zh.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */; };
+		16F4FA961EE2F29900E2603F /* LocalizableStrings-zh-Hans.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16F4FA951EE2F29900E2603F /* LocalizableStrings-zh-Hans.plist */; };
 		16F4FA9A1EE2F37600E2603F /* LocalizedRemoteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */; };
 		16F4FA9D1EE30BBD00E2603F /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA9C1EE30BBD00E2603F /* ColorManager.swift */; };
 		16F4FAA01EE30FFE00E2603F /* CalculateTextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4FA9F1EE30FFE00E2603F /* CalculateTextHelper.swift */; };
@@ -86,7 +86,7 @@
 		16F4FA8E1EE2EA0F00E2603F /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 		16F4FA911EE2F27400E2603F /* LocalizableStrings-ja.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-ja.plist"; sourceTree = "<group>"; };
 		16F4FA931EE2F28A00E2603F /* LocalizableStrings-en.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-en.plist"; sourceTree = "<group>"; };
-		16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-zh.plist"; sourceTree = "<group>"; };
+		16F4FA951EE2F29900E2603F /* LocalizableStrings-zh-Hans.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LocalizableStrings-zh-Hans.plist"; sourceTree = "<group>"; };
 		16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedRemoteConfig.swift; sourceTree = "<group>"; };
 		16F4FA9C1EE30BBD00E2603F /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
 		16F4FA9F1EE30FFE00E2603F /* CalculateTextHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateTextHelper.swift; sourceTree = "<group>"; };
@@ -292,7 +292,7 @@
 			children = (
 				16F4FA911EE2F27400E2603F /* LocalizableStrings-ja.plist */,
 				16F4FA931EE2F28A00E2603F /* LocalizableStrings-en.plist */,
-				16F4FA951EE2F29900E2603F /* LocalizableStrings-zh.plist */,
+				16F4FA951EE2F29900E2603F /* LocalizableStrings-zh-Hans.plist */,
 				16F4FA991EE2F37600E2603F /* LocalizedRemoteConfig.swift */,
 			);
 			name = InternationalHelper;
@@ -460,7 +460,7 @@
 				16F4FA831EE2DFC700E2603F /* DestinationViewController.xib in Resources */,
 				16F4FA8B1EE2E19600E2603F /* UserInfoViewController.xib in Resources */,
 				169462FE1EE2B73700A167CF /* Assets.xcassets in Resources */,
-				16F4FA961EE2F29900E2603F /* LocalizableStrings-zh.plist in Resources */,
+				16F4FA961EE2F29900E2603F /* LocalizableStrings-zh-Hans.plist in Resources */,
 				169462FC1EE2B73700A167CF /* Main.storyboard in Resources */,
 				16F4FA921EE2F27400E2603F /* LocalizableStrings-ja.plist in Resources */,
 			);
